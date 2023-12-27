@@ -1,0 +1,15 @@
+{
+  "repoOwner": "jayesh-srivastava",
+  "repoName": "test-for-backport",
+  "editor": "code",
+
+  "targetBranchChoices": ["branch-2"],
+  "mainline": 1,
+  "autoMerge": false,
+  "autoMergeMethod": "squash",
+  "commitConflicts": true,
+  "branchLabelMapping": {
+    "^backport-(.+)$": "$1"
+  }
+  "prTitle": "{{targetBranch}} {{sourcePullRequest.title}}"
+}
