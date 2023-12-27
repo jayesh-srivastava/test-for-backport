@@ -11,5 +11,5 @@
   "branchLabelMapping": {
     "^backport-(.+)$": "$1"
   }
-  "prTitle": {{targetBranch}} {{sourcePullRequest.title}}
+  "prTitle": "{{targetBranch}} {{sourcePullRequest.title}}"
 }
