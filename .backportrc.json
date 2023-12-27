@@ -9,7 +9,7 @@
   "autoMergeMethod": "squash",
   "commitConflicts": true,
   "branchLabelMapping": {
-    "^backport-(.+)$": "$1"
+    "^backport-to-(.+)$": "$1"
   }
   "prTitle": "{{targetBranch}} {{sourcePullRequest.title}}"
 }
