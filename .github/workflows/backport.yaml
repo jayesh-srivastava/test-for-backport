@@ -20,7 +20,7 @@ jobs:
         uses: sqren/backport-github-action@v9.2.2
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          auto_backport_label_prefix: backport-
+          auto_backport_label_prefix: backport-to-
           add_original_reviewers: true
 
       - name: Info log
